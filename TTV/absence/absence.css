@@ -1,0 +1,117 @@
+.main-container {
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+body {
+    height: 100%;
+    font-size: .875rem;
+    background: #e9ecef;
+    overflow-x: hidden;
+    overflow-y: auto;
+    letter-spacing: .0312rem;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#content>.container {
+    padding: 0 30px;
+    max-width: none!important;
+}
+
+.bor{
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
+
+/* .divy{
+    margin: 0 auto
+} */
+.layout-spacing {
+    margin-bottom: 40px;
+}
+.data-widgets {
+    height: 100%;
+}
+
+.data-widgets {
+    height: 100%;
+}
+.br-4 {
+    border-radius: 4px!important;
+}
+.widget-content-area {
+    padding: 30px;
+    position: relative;
+    background-color: #e8e9f1;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    -webkit-box-shadow: 0 2px 4px rgb(126 142 177 / 12%);
+    box-shadow: 0 2px 4px rgb(126 142 177 / 12%);
+}
+.widget {
+    padding: 0;
+    margin-top: 5%;
+    margin-bottom: 0;
+}
+.ddeevv {
+    padding: 10px
+}
+
+
+input[type=text] {
+  width: 160px;
+
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px; 
+  
+  padding: 12px 20px 12px 40px;
+}
+
+.button {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: rgb(52, 123, 141);
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 6px #999;
+}
+
+.button:hover {background-color: #d9e2d9}
+
+.button:active {
+  background-color: #fdfdfd;
+  box-shadow: 0 3px #666;
+  transform: translateY(3px);
+}
+.plus{
+    color: rgb(67, 172, 63)
+}
+.mois{
+    color: red
+}

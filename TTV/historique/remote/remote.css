@@ -1,0 +1,73 @@
+
+.pp{
+    text-decoration-line: underline;
+    display: inline;
+}
+.border-underline {
+    border-left: 1px solid black;
+    margin-left: 5px;
+    margin-right: 8px;
+}
+.br-4 {
+    border-radius: 4px!important;
+}
+
+.widget-content-area {
+    padding: 50px;
+    position: relative;
+    background-color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    -webkit-box-shadow: 0 2px 4px rgb(126 142 177 / 12%);
+    box-shadow: 0 2px 4px rgb(126 142 177 / 12%);
+}
+
+.main-container {
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+body {
+    height: 100%;
+    font-size: .875rem;
+    background: #e9ecef;
+    overflow-x: hidden;
+    overflow-y: auto;
+    letter-spacing: .0312rem;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#calander{
+    background-color: #d6d6e2;
+    border-radius: 5%;
+    border: 3px solid #1b1b68;
+}
+.lieu{
+    border-radius: 50px
+}
+.buttons{
+    border-radius: 50px;
+    border-color: rgb(230, 92, 99);
+    background-color: white
+}
+.buttonss{
+    border-radius: 50px;
+    border-color: rgb(223, 233, 86);
+    background-color: white;
+
+}
+.buttonsss{
+    border-radius: 50px;
+    background-color:white;
+    border-color: #1d9953;
+}

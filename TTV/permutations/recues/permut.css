@@ -1,0 +1,102 @@
+
+.pp{
+    text-decoration-line: underline;
+    display: inline;
+}
+.border-underline {
+    border-left: 1px solid black;
+    margin-left: 5px;
+    margin-right: 8px;
+}
+.br-4 {
+    border-radius: 4px!important;
+}
+
+.widget-content-area {
+    padding: 50px;
+    position: relative;
+    background-color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    -webkit-box-shadow: 0 2px 4px rgb(126 142 177 / 12%);
+    box-shadow: 0 2px 4px rgb(126 142 177 / 12%);
+}
+
+.main-container {
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+body {
+    height: 100%;
+    font-size: .875rem;
+    background: #e9ecef;
+    overflow-x: hidden;
+    overflow-y: auto;
+    letter-spacing: .0312rem;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: .625rem;
+}
+.chat-messages .chat-container .chat-body .table>tbody>tr>td {
+    padding: 18px 19px 24px;
+}
+.table>tbody>tr>td {
+    vertical-align: middle;
+}
+.table td {
+    padding: .75rem;
+    vertical-align: top;
+}
+.table td, .table>thead:first-child>tr:first-child>th {
+    border-top: none;
+}
+
+
+.Pending{
+    background-color:rgb(241, 241, 102);
+    border-radius: 50%;
+}
+.Success{
+    background-color: rgb(100, 224, 100);
+    border-radius: 50%;
+}
+.Close{
+    background-color:rgb(238, 98, 98);
+    border-radius: 50%;
+}
+
+div.scroll {   
+  height: 90%;
+  overflow: auto;
+}
+#calander{
+    background-color: #c3c3e6;
+    border-radius: 5%;
+    border: 3px solid #1b1b68;
+}
+
+.buttons {
+   margin-right: 30px;
+}
+.Accepter {
+   background-color: rgb(44, 196, 69);
+    border-radius: 10%;
+}
+.Décliner {
+  background-color: orangered;
+    border-radius: 10%;
+}

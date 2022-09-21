@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Permutations</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <link rel="stylesheet"href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"crossorigin="anonymous"/>
+    
+    <link rel="stylesheet" href="permut.scss">
+    <link rel="stylesheet" href="permut.css">
+
+    
+</head>
+
+    <body class="default-sidebar">
+    <div id="eq-loader">
+      <div class="eq-loader-div">
+          <div class="eq-loading dual-loader mx-auto mb-5"></div>
+      </div>
+    </div>
+        <div id="content" class="main-content">
+            <div class="container">
+                <div class="page-header"> 
+                     <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-12 layout-spacing">
+                        <div class="widget-content-area raised-tickets p-0  h-100 br-4">
+                            <div class=" table-header">
+                                <div class="row">
+                                    <div class="col-2 pr-0">
+                                        <p class="mb-0 pp">Demandées </p>
+                                        <p class="pp border-underline "></p>
+                                        <p class="mb-0 pp">Reçues</p>
+                                    </div>
+                                    <div class="col-10 pr-0">
+                                        <input class="pp"type="date" id="calander" name="calander"> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="table-responsive scroll">
+                                <table class="table">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div class="media">
+                                                    <img src="#" class="rounded-circle mr-4" alt="user">
+                                                    <div class="media-body">
+                                                        <h6 class="usr-name">Shaun Park</h6>
+                                                        <p class="meta-info">
+                                                            <i class="flaticon-stopwatch-1 mr-1"></i>
+                                                            <span class="meta-date">9 Jan 2019 | Tue - </span>
+                                                            <span class="meta-time">9:00 am</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        
+                                            <td class="action text-right">
+                                                
+                                                     <button class="Pending buttons"><i class="fas fa-exclamation-circle mb-2 t-inprogress bs-tooltip "data-placement="top" title="Pending"></i></button>
+                                                    <button class="Success buttons"><i class="fas fa-check-circle mb-2 bs-tooltip" data-placement="top" title="Success"></i> </button>
+                                                    <button class="Close buttons"><i class="fas fa-times-circle mb-2 bs-tooltip" data-placement="top" title="Close"></i></button>
+                                                    <button class="annul buttons">Annuler</button>
+                                                
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <table class="table">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div class="media">
+                                                    <img src="#" class="rounded-circle mr-4" alt="user">
+                                                    <div class="media-body">
+                                                        <h6 class="usr-name">Shaun Park</h6>
+                                                        <p class="meta-info">
+                                                            <i class="flaticon-stopwatch-1 mr-1"></i>
+                                                            <span class="meta-date">9 Jan 2019 | Tue - </span>
+                                                            <span class="meta-time">9:00 am</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        
+                                            <td class="action text-right">
+                                                <button class="Pending buttons"><i class="fas fa-exclamation-circle mb-2 t-inprogress bs-tooltip "data-placement="top" title="Pending"></i></button>
+                                                
+                                                <button class="Success buttons"><i class="fas fa-check-circle mb-2 bs-tooltip" data-placement="top" title="Success"></i> </button>
+                                                <button class="Close buttons"><i class="fas fa-times-circle mb-2 bs-tooltip" data-placement="top" title="Close"></i></button>
+                                                <button class="annul buttons">Annuler</button>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+            </div>
+        </div>       
+    </div>
+    <script type="text/javascript" src="permut.js"></script>
+</body>
+</html>
