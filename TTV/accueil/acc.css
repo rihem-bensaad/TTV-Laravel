@@ -1137,7 +1137,6 @@ header.navbar:not(.tabMobileView) .navbar-nav .nav-item form.form-inline:before 
     color: #ee3d50;
     font-size: 16px;
 }
-.control-sidebar .tab-content .friends .online .media {}
 .control-sidebar .tab-content .friends .online .media {
     padding: 10px;
 }
@@ -1343,7 +1342,6 @@ header.navbar:not(.tabMobileView) .navbar-nav .nav-item form.form-inline:before 
     font-size: 20px;
     color: #1d1d1d;
 }
-.control-sidebar .tab-content .settings .general-setting .usr-status .media.stats {}
 .control-sidebar .tab-content .settings .general-setting .usr-status .media.stats h6 {
     color: #3b3f5c;
     font-size: 16px;
